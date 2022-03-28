@@ -4,7 +4,10 @@
     font-weight: normal;
     font-style: normal;
 }
-*{margin: 0; padding: 0;}
+*{
+    margin: 0; 
+    padding: 0;
+}
 li{list-style: none;}
 
 body{font-family: 'GmarketSansMedium';}
@@ -75,3 +78,10 @@ body{font-family: 'GmarketSansMedium';}
     transition: all .3s;
     cursor: pointer;
 }
+
+// #formmain{
+//     display: flex;
+// }
+// .imgmain{
+//     width: 50%;
+// }
