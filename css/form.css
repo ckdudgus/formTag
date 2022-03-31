@@ -20,12 +20,8 @@ body {
 }
 
 #contacttitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   left: 0;
   right: 0;
   top: 0;
@@ -36,12 +32,8 @@ body {
 
 #subtitle {
   font-family: 'Jua', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
   padding-right: 6.5rem;
   font-size: 25px;
   color: #d23f11;
@@ -69,8 +61,6 @@ body {
 }
 
 #contactform li ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -90,8 +80,6 @@ body {
 }
 
 .labeltext {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -121,16 +109,12 @@ body {
   border: 1px solid #ccc;
   border-radius: 6px;
   background-color: #fff;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-transition: all .3s;
+  box-sizing: border-box;
   transition: all .3s;
   cursor: pointer;
 }
 
 #formmain {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -190,4 +174,3 @@ textarea {
 .checkbox :checked ~ i {
   background: url(../img/checkimg.svg) no-repeat center center/13px auto;
 }
-/*# sourceMappingURL=form.css.map */
